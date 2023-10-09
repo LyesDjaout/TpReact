@@ -36,7 +36,7 @@ function CatalogueProduits() {
                     >
                         <h2 className="text-lg font-semibold">{product.title}</h2>
                         <img src={product.thumbnail} alt={product.title} className="mt-2 w-full h-auto" />
-                        <p className="mt-2 text-gray-600">${product.price}</p>
+                        <p className="mt-2 text-gray-600">€{product.price}</p>
                         {/* ... autres détails du produit */}
                     </div>
                 ))}

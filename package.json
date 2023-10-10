@@ -45,6 +45,8 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^8.51.0",
+    "eslint-plugin-react": "^7.27.1",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^9.1.4"
   }

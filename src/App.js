@@ -1,4 +1,3 @@
-// src/App.js
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CatalogueProduits from "./CatalogueProduits";
 import DetailProduit from "./DetailProduit";

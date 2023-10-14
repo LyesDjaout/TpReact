@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import{ useEffect, useState } from "react";
 import axios from "axios";
-import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
-import DetailProduit from "./DetailProduit";
+import { useNavigate } from "react-router-dom";
 
 function CatalogueProduits() {
     const [produits, setProduits] = useState([]);
+    /* eslint-disable no-unused-vars */
     const [produitDetail, setProduitDetail] = useState(null);
     const navigate = useNavigate();
 

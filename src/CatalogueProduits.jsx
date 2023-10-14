@@ -4,8 +4,6 @@ import { useNavigate } from "react-router-dom";
 
 function CatalogueProduits() {
     const [produits, setProduits] = useState([]);
-    /* eslint-disable no-unused-vars */
-    const [produitDetail, setProduitDetail] = useState(null);
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -16,9 +14,6 @@ function CatalogueProduits() {
 
     
     const handleProductClick = (product) => {
-        
-        setProduitDetail(product);
-
         navigate(`/produit/${product.id}`, { state: { product } });
     };
 
